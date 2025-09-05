@@ -24,7 +24,8 @@ The project is structured into four Python modules:
 
 ---
 Note: I have recently started learning finance so with knowledge I have so far I created this project. I am going to enhance this project while I proceed learning.
-Note: I accumulated all of the code into bot.py;thus, you only need to use bot.py. The others I created while I learning. 
+
+Note: I accumulated all of the code into bot.py.Thus, you only need to use bot.py. The others I created while I learning. 
 
 🔒 Disclaimer
 This bot is for educational purposes only.
