@@ -5,11 +5,13 @@ This project implements a **Bitcoin trading strategy** based on detecting **loca
 The algorithm buys at **local minima** and sells at **local maxima**, using volatility filters (ATR) to avoid noise.  
 
 The project is structured into four Python modules:
-1. **data_fetch.py** → Fetch historical BTC data using `ccxt`  
-2. **smoothing.py** → Apply smoothing (EMA, Savitzky–Golay) & calculate derivatives  
-3. **strategy.py** → Detect extrema, generate buy/sell signals with ATR filter  
-4. **trading_bot.py** → Paper trade live BTC/USDT with simulated PnL logging  
-
+1. **fetching_data.py** → Fetch historical BTC data using `ccxt`  
+2. **price_smoother.py** → Apply smoothing (EMA, Savitzky–Golay) & calculate derivatives  
+3. **local_min_max.py** → Detect extrema, generate buy/sell signals with ATR filter  
+4. **bot.py** → Paper trade live BTC/USDT with simulated PnL logging  
+5. **indicator.py** → Creating savgol filters
+6. **backtesting.py** → Testing the code wit vectorbt
+7. **trades.csv** → For logging buy and sell signals created
 ---
 
 ## 🚀 Features
